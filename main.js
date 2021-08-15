@@ -40,6 +40,7 @@ function gotPoses(results)
 function draw() {
 background('#969A97');
 
+  document.getElementById('square_size').innerHTML = "Width and Height of square "
   fill('#F90093');
   stroke('#F90093');
   square(noseX, noseY, difference);
